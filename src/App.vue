@@ -5,8 +5,8 @@
       :token="token"
       @handle-error="handleError"
       input-name="vue-dadata"
-      from-bound="region"
-      to-bound="house"
+      :fromBound="fromBound"
+      :toBound="toBound"
       highlight-class-name="vue-dadata__highlight"
       unhighlight-class-name="vue-dadata__unhighlight"
       highlight-tag="span"
@@ -30,6 +30,8 @@ export default class App extends Vue {
   public token = '';
   public locations = {
     language: 'ru',
+    fromBound: 'region',
+    toBound: 'house',
     locations: [
       // {
       //   region: 'москва',

@@ -1,13 +1,13 @@
 {
   "name": "vue-dadata",
-  "version": "1.4.10",
+  "version": "1.4.10.1",
   "description": "Vue component for hinting addresses using dadata.ru",
   "main": "dist/vuedadatacomponent.umd.js",
   "module": "dist/vuedadatacomponent.esm.js",
   "unpkg": "dist/vuedadatacomponent.min.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ikloster03/vue-dadata.git"
+    "url": "git+https://github.com/sergeypal/vue-dadata.git"
   },
   "keywords": [
     "vue",
@@ -66,6 +66,7 @@
     "@vue/eslint-config-prettier": "6.0.0",
     "@vue/eslint-config-typescript": "5.0.1",
     "@vue/test-utils": "1.0.0-beta.29",
+    "babel-jest": "^26.6.3",
     "cross-env": "^6.0.3",
     "eslint": "6.7.2",
     "eslint-plugin-prettier": "3.1.1",
